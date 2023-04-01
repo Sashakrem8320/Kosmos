@@ -1,0 +1,21 @@
+.page {
+    width: min(95vw, max(95vh, 95vw));
+    height: min(95vh, max(95vh, 95vw));
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url(../images/fon.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+

@@ -1,0 +1,118 @@
+.content {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:center;
+  margin: 0 auto;
+}
+
+.slide {
+  width: min(80vw, max(60vh, 80vw));
+  height: min(60vh, max(60vh, 80vw));
+  color: fff;
+  
+}
+
+.lenta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lenta__image {
+  width: min(10vw, 10vh);
+  margin: min(0.3vw, 0.3vh); 
+  margin-top: min(0.7vw, 0.7vh); 
+  margin-bottom: min(0.7vw, 0.7vh); 
+}
+
+.lenta__image:last-child {
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+.href_lenta:hover {
+  opacity: 0.5;
+  }
+
+.slide__title_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.slide__title_col {
+  display:flex;
+  flex-direction: column;
+}
+.slide__image {
+  width: min(50vw, 50vh);
+}
+.slide__title_content {
+  font-size: min(10vw, 10vh); 
+  font-weight: bold;
+  text-align: center;
+  color: #E6E6FA;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slide__subtitle {
+  font-size: min(8vw, 8vh); 
+  font-style: italic;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.slide__text {
+  font-size: min(7vw, 7vh); 
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.slide__container {
+  width: 100%;
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  
+  border-color: #DA70D6;
+  border: min(1vw, 1vh) solid transparent;
+  border-image: linear-gradient(#8080B8 , #B8B8E0);
+  box-sizing: border-box;
+  -moz-border-image: -moz-linear-gradient(#8080B8, #B8B8E0);
+-webkit-border-image: -webkit-linear-gradient(#8080B8 , #B8B8E0);
+  border-image-slice: 1;
+  background: radial-gradient(#8080B8, #080820);
+  opacity: 1.0;
+  padding: min(2vw, 2vh);
+}
+
+.slide_button {
+  display: block;
+  width: min(30vw, 30vh);
+  background-color: #B8B8E0;
+  border: 1px solid #8080B8;
+  border-radius: 5%;
+  text-decoration:  none; 
+  font-size: min(5vw, 5vh);
+  font-weight: 900;
+  color: #080820; 
+  text-align: center;
+  padding: min(1vw, 1vh);
+}
+
+.slide_button:hover {
+  background-color: #8080B8;
+  color: aliceblue;
+  font-weight: 500;
+}
+@media screen and (max-width: 700px) {
+    .slide__title_content {
+      
+    }
+}

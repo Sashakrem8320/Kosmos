@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  align-items: flex-start;
+}
+
+.footer__content {
+  font-size: min(2vw, 2vh); 
+  color: #B8B8E0;
+  margin: 0;
+}
+.footer__content:first-child {
+  padding-top: min(4vw, 4vh);
+}
